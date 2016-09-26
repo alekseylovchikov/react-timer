@@ -1,0 +1,17 @@
+@import 'base/vars';
+@import 'components/nav';
+
+a {
+  color: $link-color;
+  &:hover {
+    color: darken($link-color, 20%);
+    &:after {
+      // display: table;
+      // content: " ";
+      // width: 100%;
+      // height: 2px;
+      // margin-top: 1rem;
+      // background-color: $link-color;
+    }
+  }
+}

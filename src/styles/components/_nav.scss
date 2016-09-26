@@ -1,0 +1,11 @@
+.top-bar {
+  box-shadow: 0 0 10px 0 $shadow;
+  .menu > li > a {
+    display: inline;
+  }
+}
+
+.top-bar, .top-bar ul {
+  background-color: $primary-color;
+  color: #fff;
+}

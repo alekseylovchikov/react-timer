@@ -7,7 +7,6 @@ var Main = (props) => {
     return (
         <div>
           <Navbar />
-          <h1>Main.jsx</h1>
           <div className="row">
             { props.children }
           </div>

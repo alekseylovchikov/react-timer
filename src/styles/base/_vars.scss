@@ -1,3 +1,7 @@
 $primary-color: #363544;
-$link-color: #9ee8ff;
 $shadow: #383838;
+
+// clock
+$clock-text-color: #fff;
+$clock-bg-color: #69efaf;
+$clock-border-color: darken($clock-bg-color, 30%);

@@ -28,6 +28,7 @@ module.exports = {
             Timer: 'src/components/Timer.jsx',
             Countdown: 'src/components/Countdown.jsx',
             Navbar: 'src/components/Navbar.jsx',
+            Clock: 'src/components/Clock.jsx',
             applicationStyles: 'src/styles/app.scss'
         }
     },

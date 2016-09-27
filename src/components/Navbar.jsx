@@ -12,11 +12,6 @@ var Navbar = React.createClass({
             <li><Link to="/countdown" activeClassName="active">Countdown</Link></li>
           </ul>
         </div>
-        <div className="top-bar-right">
-          <ul className="menu">
-            <li className="menu-text">Awesome Application with <a href="#" target="_blank">React.JS</a></li>
-          </ul>
-        </div>
       </div>
     );
   }

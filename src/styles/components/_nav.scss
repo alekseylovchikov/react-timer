@@ -3,6 +3,9 @@
   .menu > li > a {
     display: inline;
   }
+  .active {
+    font-weight: bold;
+  }
 }
 
 .top-bar, .top-bar ul {

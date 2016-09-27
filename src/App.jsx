@@ -15,13 +15,17 @@ require('style!css!sass!applicationStyles');
 // components
 var Main = require('Main');
 var NotFound = require('NotFound');
+var Timer = require('Timer');
+var Countdown = require('Countdown');
 
 var routes = (
-    <Router history={ browserHistory }>
-        <Route path="/" component={ Main }>
-            <Route path="*" component={ NotFound } />
-        </Route>
-    </Router>
+  <Router history={ browserHistory }>
+    <Route path="/" component={ Main }>
+      <IndexRoute component={ Timer } />
+      <Route path="countdown" component={ Countdown } />
+      <Route path="*" component={ NotFound } />
+    </Route>
+  </Router>
 );
 
 ReactDOM.render(routes, document.querySelector('#app'));
